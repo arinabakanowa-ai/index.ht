@@ -1,0 +1,59 @@
+body{
+    width: 1441px;
+    height: 827px;
+    background-image: url(Slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #F5F5F5;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif; /* Шрифт для заголовка */
+}
+h1, h2, h3, h4, h5{
+    font-weight: 500;
+}
+span {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.get-in-out{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.container{
+    width: 1111px;
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 19px
+}
+.welcome{
+    font-family: 'Poppins', sans-serif;
+
+    /* Text */
+
+
+    /* Inside auto layout */
+    flex: auto;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    width: 616px;
+    height: 420.13px;
+}

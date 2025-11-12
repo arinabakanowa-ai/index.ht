@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    padding-inline: 188px;
+    padding-bottom: 211px;
+    background-image: url("./Slider.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 122px;
+    margin-left: 164px;
+    margin-right: 203px;
+}
+
+.welcome .container {
+    
+    box-sizing: border-box;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    align-items: center
+}
+
+
+.header__logo {
+
+}
+
+
+
+.main {
+
+}
+
+/*Welcome*/
+
+.welcome {
+    
+}
+
+.welcome__text {
+    width: 616px;
+}
+
+.welcome__subtitle {
+margin-bottom: 22px;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+
+
+}
+
+.welcome__title {
+
+font-weight: 700;
+font-size: 60px;
+line-height: 74px;
+color: #FFFFFF;
+
+}
+
+.welcome__desc {
+    margin-top: 24;    
+    margin-bottom: 45px;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.Deation-Evaluation{
+    display: flex;
+    justify-content: space-around;
+    a:hover{
+        color: rgb(212, 214, 212);
+    }
+}
